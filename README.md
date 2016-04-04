@@ -10,7 +10,7 @@ Use AWS CloudWatch &amp; Lambda to post Laravel Log messages to Slack.
 I've written [an article](https://medium.com/@james_fairhurst/using-aws-cloudwatch-for-laravel-logs-on-forge-27590ee4fe33) which goes through the process of getting your Laravel app logs into CloudWatch. It's *relatively* straight forward however like everything it depends on your experience. Hit me up if you're having trouble.
 
 ## Step 2 - Create a Slack Webhook
-Create a Slack [Incoming Webhook](https://api.slack.com/incoming-webhooks) which will give you a **Webhook URL** e.g. https://hooks.slack.com/services/xxx/xxx/xxx. Enter the URL without the hostname into **slackPostPath** variable in the **index.js** file e.g.
+Create a Slack [Incoming Webhook](https://api.slack.com/incoming-webhooks) which will give you a **Webhook URL** e.g. https://hooks.slack.com/services/xxx/xxx/xxx. Enter the URL without the hostname into the **slackPostPath** variable in the **index.js** file e.g.
 
 ```
 slackPostPath = '/services/xxx/xxx/xxx';
