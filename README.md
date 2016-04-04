@@ -1,5 +1,5 @@
-# laravel-cloudwatch-lambda-slack
-Use AWS CloudWatch &amp; Lambda to post Laravel Log messages to Slack.
+# laravel-cloudwatch-logs-lambda-slack
+Use AWS CloudWatch Logs &amp; Lambda to post Laravel Log messages to Slack.
 
 ![All Log Levels](screenshot-all-log-levels.png)
 
