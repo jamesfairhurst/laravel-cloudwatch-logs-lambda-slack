@@ -25,4 +25,4 @@ Although there are other ways to get notified of errors e.g. external services (
 # Todo
 * Option to exclude log levels e.g. debug & info so only proper errors are reported
 * ~~Article to document the Slack & Lambda setup steps~~ [Using AWS CloudWatch & Lambda for Laravel Log Slack Notifications](https://medium.com/@james_fairhurst/using-aws-cloudwatch-lambda-for-laravel-log-slack-notifications-22c2e9e6bc51)
-* Another Lambda function that interacts with Trello and creates a todo card
+* ~~Another Lambda function that interacts with Trello and creates a todo card~~ [Using AWS CloudWatch & Lambda to create Trello Cards from Laravel Logs](https://medium.com/@james_fairhurst/using-aws-cloudwatch-lambda-to-create-trello-cards-from-laravel-logs-18bbb3e994e0)
